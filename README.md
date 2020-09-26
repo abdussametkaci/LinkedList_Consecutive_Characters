@@ -40,9 +40,13 @@ o Yoksa sayısı 1 olacak şekilde listenin sonuna eklenmelidir
 • Ayrıca şu metotları içermektedir:
 
 o ardisikKarakterler(char k) → k karakterinin peşi sıra gelen karakterleri yazar
+
 o enCokArdisik() → en çok peş peşe gelen karakter ikilisini yazar
+
 o enCokArdisik(char k) → k karakterinin peşi sıra en çok gelen karakteri yazar
+
 o enAzArdisik() → en az peş peşe gelen karakter ikilisini yazar
+
 o enAzArdisik(char k) → k karakterinin peşi sıra en az gelen karakteri yazar
 
 Örnek:
