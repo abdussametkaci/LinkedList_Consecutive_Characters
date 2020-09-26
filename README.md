@@ -4,25 +4,25 @@ bilgilerinin bağlantılı liste yapısında tutulmasını sağlayan bir algorit
 Bu proje birden fazla tekli bağlantılı liste (multi singly linked list) veri yapısını kullanılarak geliştirilmiştir.
 ## İsterler
 • “veri.txt” dosyasında birden fazla cümle bulunmaktadır. Bu dosyayı karakter karakter
-okuyarak tekli bağlantılı listeye ekleme işlemlerini gerçekleştirmelisiniz. Dosyadan veriler
-okundukça multi singly linked list yapısını oluşturmanız gerekmektedir. Listeye ekleme
-işlemleri okuma sırasında yapılmalıdır. Önce bütün dosyayı okuma işlemini yapıp bu bilgileri
-ayrı bir yerde saklama yoluna gidilmemelidir.
+okuyarak tekli bağlantılı listeye ekleme işlemlerini gerçekleştirmektedir. Dosyadan veriler
+okundukça multi singly linked list yapısını oluşturmaktadır. Listeye ekleme
+işlemleri okuma sırasında yapılmaktadır. Önce bütün dosyayı okuma işlemini yapıp bu bilgileri
+ayrı bir yerde saklama yoluna gidilmemektedir.
 
-• Sizin programınız her kelimeyi karakter karakter okuyarak, sırasıyla her karakteri ayrı bir
-düğüm olacak şekilde gerekli kontrolleri yaparak kendinizin yazdığı tekli bağlantılı listeye
-eklemelidir. Buradaki amaç, peş peşe gelen 2 adet karakterin bilgisini tutmaktır. Her karakterin
+• Program her kelimeyi karakter karakter okuyarak, sırasıyla her karakteri ayrı bir
+düğüm olacak şekilde gerekli kontrolleri yaparak kendim yazmış olduğum tekli bağlantılı listeye
+eklemektedir. Buradaki amaç, peş peşe gelen 2 adet karakterin bilgisini tutmaktır. Her karakterin
 bulunduğu düğümün altında ayrıca sonrasında gelen karakterin bilgisi ve kaç kere peşi sıra
-geldiği bilgisi tutulmalıdır.
+geldiği bilgisi tutulmaktadır.
 
-• Bağlantılı listenizde iki farklı düğüm (Node) tanımı olmalıdır.
-
+• Bağlantılı listemizde iki farklı düğüm (Node) tanımı bulunmaktadır.
 
 • Biri ana listedeki karakterler için, ana düğümler (örneğin; e, v, d gibi)
+
 • Diğeri ise bu ana düğümlere bağlanacaklar için, liste düğümleri (örneğin; l-3, a-2 gibi)
 
-• Aşağıda verilen örnek yapıdan da anlaşılacağı üzere, sizden iki katmanlı bağlantılı liste yapısı
-istenmektedir. Bu yapı kurulurken uyulması gereken kurallar şu şekildedir;
+• Aşağıda verilen örnek yapıdan da anlaşılacağı üzere, iki katmanlı bağlantılı liste yapısı
+bulunmaktadır. Bu yapı oluşturulurken uyulan kurallar;
 
 • Her bir ana düğüm hem kendi listesindeki ilk düğümü (sonrasında gelen karakter), hem
 de bir sonraki ana düğümü (başka bir karakter) işaret edebilmelidir
@@ -55,6 +55,6 @@ Okunacak dosya içeriği (veri.txt)
 
 Ali evde kal, evinde kal.
 
-Bu dosya için oluşması gereken yapı ise aşağıdaki gibi olmalıdır;
+Bu dosya için oluşması gereken yapı ise aşağıdaki gibidir;
 
 ![image](https://user-images.githubusercontent.com/61049743/94340098-c1bb9800-0007-11eb-8e49-ea88678773fa.png)
