@@ -1,7 +1,7 @@
 /**
 * @file Odev1
 * @description Yazilan bu program bir dosya icerisindeki karakterleri LinkedList icerisinde
-* saklamaktadır. Ayrica bu karakterlerden sonra hangi karakterlerin gectigi ve adet 
+* saklamaktadir. Ayrica bu karakterlerden sonra hangi karakterlerin gectigi ve adet 
 * bilgisi de bir baglantili liste yapisinda tutulmaktadir
 * @assignment Odev1
 * @date 16.04.2020
