@@ -5,7 +5,7 @@
 * bilgisi de bir baglantili liste yapisinda tutulmaktadir
 * @assignment Odev1
 * @date 16.04.2020
-* @author Abdussamet KACI abdussamet.kaci@stu.fsm.edu.tr
+* @author Abdussamet KACI
 */
 package DataStructures_Project1;
 
